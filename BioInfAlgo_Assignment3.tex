@@ -1,0 +1,198 @@
+\documentclass[a4paper]{article}
+ 
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+ 
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+
+\usepackage{lipsum}
+ 
+\usepackage{tikz}
+\begin{document}
+ 
+\tikzstyle{observation}=[shape=circle, text width=0.6em, text centered, draw=blue!50,fill=blue!20]
+\tikzstyle{state}=[shape=rectangle,draw=orange!50,fill=orange!20]
+\tikzstyle{state2}=[shape=rectangle, text width=0.2em, draw=orange!50,fill=orange!20]
+\tikzstyle{lightedge}=[<-,dotted]
+\tikzstyle{mainstate}=[state]
+\tikzstyle{mainedge}=[<-,thick]
+ \begin{center}
+
+\begin{figure}[!htp]
+
+
+\noindent\makebox[\textwidth]{%
+\begin{tikzpicture}[scale=0.5]
+% states
+\node[state] (F1) at (-2,3) {$F_1$};
+\node[observation] (H1) at (-2.8,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F1);
+\node[observation] (T1) at (-1.2,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F1);
+    
+\node[state] (F2) at (1,3) {$F_2$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F1);
+\node[observation] (H) at (0.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F2);
+\node[observation] (T) at (1.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F2);
+    
+\node[state] (F3) at (4,3) {$F_3$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F2);
+\node[observation] (H1) at (3.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F3);
+\node[observation] (T1) at (4.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F3);
+    
+\node[state] (F4) at (7,3) {$F_4$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F3);
+\node[observation] (H1) at (6.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F4);
+\node[observation] (T1) at (7.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F4);
+    
+\node[state] (F5) at (10,3) {$F_5$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F4);
+\node[observation] (H1) at (9.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F5);
+\node[observation] (T1) at (10.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F5);
+    
+\node[state] (F6) at (13,3) {$F_6$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F5);
+\node[observation] (H1) at (12.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F6);
+\node[observation] (T1) at (13.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F6);
+    
+\node[state] (F7) at (16,3) {$F_7$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F6);
+\node[observation] (H1) at (15.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F7);
+\node[observation] (T1) at (16.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F7);
+    
+\node[state] (F8) at (19,3) {$F_8$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F7);
+\node[observation] (H1) at (18.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F8);
+\node[observation] (T1) at (19.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F8);
+    
+\node[state] (F9) at (22,3) {$F_9$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F8);
+\node[observation] (H1) at (21.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F9);
+\node[observation] (T1) at (22.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F9);
+    
+\node[state] (F10) at (25,3) {$F_{10}$}
+    edge [<-,bend left=45, in = 110, out=70] node[auto,swap] {$1$} (F9);
+\node[observation] (H1) at (24.2,6) {$H$}
+    edge [<-] node[midway,left]{$\frac{1}{2}$}(F10);
+\node[observation] (T1) at (25.8,6) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{2}$}(F10);
+
+\path (F10) edge[ out=350, in=280, looseness=1.2, loop, distance=3cm, ->]
+            node[below=1pt] {$0.9$} (F10);
+            
+\node[state] (B1) at (-2,-2) {$B_1$};
+\node[observation] (H1) at (-2.8,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B1);
+\node[observation] (T1) at (-1.2,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B1);
+
+\node[state] (B2) at (1,-2) {$B_2$}
+    edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B1);
+\node[observation] (H1) at (0.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B2);
+\node[observation] (T1) at (1.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B2);
+    
+    
+\node[state] (B3) at (4,-2) {$B_3$}
+    edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B2);
+\node[observation] (H1) at (3.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B3);
+\node[observation] (T1) at (4.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B3);
+    
+\node[state] (B4) at (7,-2) {$B_4$}
+    edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B3);
+\node[observation] (H1) at (6.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B4);
+\node[observation] (T1) at (7.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B4);
+    
+\node[state] (B5) at (10,-2) {$B_5$}
+    edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$}(B4);
+\node[observation] (H1) at (9.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B5);
+\node[observation] (T1) at (10.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B5);
+    
+\node[state] (B6) at (13,-2) {$B_6$}
+   edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B5);
+\node[observation] (H1) at (12.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B6);
+\node[observation] (T1) at (13.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B6);
+   
+\node[state] (B7) at (16,-2) {$B_7$}
+   edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B6);
+\node[observation] (H1) at (15.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B7);
+\node[observation] (T1) at (16.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B7);
+   
+\node[state] (B8) at (19,-2) {$B_8$}
+   edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B7);
+\node[observation] (H1) at (18.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B8);
+\node[observation] (T1) at (19.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B8);
+   
+\node[state] (B9) at (22,-2) {$B_9$}
+    edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$} (B8);
+\node[observation] (H1) at (21.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B9);
+\node[observation] (T1) at (22.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B9);
+    
+\node[state] (B10) at (25,-2) {$B_{10}$}
+    edge [<-,bend right=45, in = 250, out=290] node[auto,swap,below] {$1$}(B9);
+\node[observation] (H1) at (24.2,-5) {$H$}
+    edge [<-] node[midway,left]{$\frac{3}{4}$}(B10);
+\node[observation] (T1) at (25.8,-5) {$T$}
+    edge [<-] node[midway,right]{$\frac{1}{4}$}(B10);
+
+
+\path (B10) edge[ out=350, in=280, looseness=1.2, loop, distance=3cm, ->]
+            node[below=1pt] {$0.9$} (B10);
+
+\path[->]  (B10) edge [out=0,in=180,] node [above,very near start] {$0.1$} (F1);
+
+\path[->]  (F10) edge [out=0,in=180,] node [above,very near start] {$0.1$} (B1);
+
+\node[state] (START) at (-6,0.5) {$Start$}
+    edge [->,bend left=45, out=0, in=180] node[auto,swap,below] {$\frac{1}{2}$}(F1)
+    edge [->,bend left=45, out=0, in=180] node[auto,swap,above] {$\frac{1}{2}$}(B1);
+    
+
+
+\end{tikzpicture}
+
+}
+\caption{A HMM for the Fair Bet Casino where the dealer keeps every coin for at least ten tosses.}
+
+\end{figure}
+
+\end{center}
+
+ 
+\end{document}
