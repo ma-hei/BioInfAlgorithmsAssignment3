@@ -16,12 +16,16 @@
 \begin{document}
  
 \tikzstyle{observation}=[shape=circle, text width=0.6em, text centered, draw=blue!50,fill=blue!20]
-\tikzstyle{state}=[shape=rectangle,draw=orange!50,fill=orange!20]
-\tikzstyle{state2}=[shape=rectangle, text width=0.2em, draw=orange!50,fill=orange!20]
+\tikzstyle{state}=[shape=circle,draw=orange!50,fill=orange!50]
+\tikzstyle{state2}=[shape=circle, text width=0.6em, text centered, draw=orange!50,fill=orange!50]
+\tikzstyle{state3}=[shape=circle, text width=0.6em, text centered, draw=orange!50,fill=orange!5]
+\tikzstyle{dots}=[]
 \tikzstyle{lightedge}=[<-,dotted]
 \tikzstyle{mainstate}=[state]
 \tikzstyle{mainedge}=[<-,thick]
- \begin{center}
+
+\section{11.2}
+\begin{center}
 
 \begin{figure}[!htp]
 
@@ -194,5 +198,443 @@
 
 \end{center}
 
- 
+\begin{center}
+
+\begin{figure}[!htp]
+
+\noindent\makebox[\textwidth]{%
+\begin{tikzpicture}[scale=0.5]
+
+\node[observation] (X1) at (-2,-2) {$X_1$};
+\node[state2] (B11) at (-2,-6) {$B_1$};
+\node[state3] (B21) at (-2,-7.5) {$B_2$};
+\node[state3] (B31) at (-2,-9) {$B_3$};
+\node[state3] (B41) at (-2,-10.5) {$B_4$};
+\node[state3] (B51) at (-2,-12) {$B_5$};
+\node[state3] (B61) at (-2,-13.5) {$B_6$};
+\node[state3] (B71) at (-2,-15) {$B_7$};
+\node[state3] (B81) at (-2,-16.5) {$B_8$};
+\node[state3] (B91) at (-2,-18) {$B_9$};
+\node[state3] (B101) at (-2,-19.5) {$B_{10}$};
+
+\node[state2] (F11) at (-2,-22) {$F_1$};
+\node[state3] (F21) at (-2,-23.5) {$F_2$};
+\node[state3] (F31) at (-2,-25) {$F_3$};
+\node[state3] (F41) at (-2,-26.5) {$F_4$};
+\node[state3] (F51) at (-2,-28) {$F_5$};
+\node[state3] (F61) at (-2,-29.5) {$F_6$};
+\node[state3] (F71) at (-2,-31) {$F_7$};
+\node[state3] (F81) at (-2,-32.5) {$F_8$};
+\node[state3] (F91) at (-2,-34) {$F_9$};
+\node[state3] (F101) at (-2,-35.5) {$F_{10}$};
+
+\node[observation] (X2) at (0,-2) {$X_2$};
+\node[state3] (B12) at (-0,-6) {$B_1$};
+\node[state2] (B22) at (-0,-7.5) {$B_2$}
+edge [<-] node[midway]{1}(B11);
+\node[state3] (B32) at (-0,-9) {$B_3$};
+\node[state3] (B42) at (-0,-10.5) {$B_4$};
+\node[state3] (B52) at (-0,-12) {$B_5$};
+\node[state3] (B62) at (-0,-13.5) {$B_6$};
+\node[state3] (B72) at (-0,-15) {$B_7$};
+\node[state3] (B82) at (-0,-16.5) {$B_8$};
+\node[state3] (B92) at (-0,-18) {$B_9$};
+\node[state3] (B102) at (-0,-19.5) {$B_{10}$};
+
+\node[state3] (F12) at (-0,-22) {$F_1$};
+\node[state2] (F22) at (-0,-23.5) {$F_2$}
+edge [<-] node[midway]{1}(F11);
+\node[state3] (F32) at (-0,-25) {$F_3$};
+\node[state3] (F42) at (-0,-26.5) {$F_4$};
+\node[state3] (F52) at (-0,-28) {$F_5$};
+\node[state3] (F62) at (-0,-29.5) {$F_6$};
+\node[state3] (F72) at (-0,-31) {$F_7$};
+\node[state3] (F82) at (-0,-32.5) {$F_8$};
+\node[state3] (F92) at (-0,-34) {$F_9$};
+\node[state3] (F102) at (-0,-35.5) {$F_{10}$};
+
+\node[observation] (X3) at (2,-2) {$X_3$};
+\node[state3] (B13) at (2,-6) {$B_1$};
+\node[state3] (B23) at (2,-7.5) {$B_2$};
+\node[state2] (B33) at (2,-9) {$B_3$}
+edge [<-] node[midway]{1}(B22);
+\node[state3] (B43) at (2,-10.5) {$B_4$};
+\node[state3] (B53) at (2,-12) {$B_5$};
+\node[state3] (B63) at (2,-13.5) {$B_6$};
+\node[state3] (B73) at (2,-15) {$B_7$};
+\node[state3] (B83) at (2,-16.5) {$B_8$};
+\node[state3] (B93) at (2,-18) {$B_9$};
+\node[state3] (B103) at (2,-19.5) {$B_{10}$};
+
+\node[state3] (F13) at (2,-22) {$F_1$};
+\node[state3] (F23) at (2,-23.5) {$F_2$};
+\node[state2] (F33) at (2,-25) {$F_3$}
+edge [<-] node[midway]{1}(F22);
+\node[state3] (F43) at (2,-26.5) {$F_4$};
+\node[state3] (F53) at (2,-28) {$F_5$};
+\node[state3] (F63) at (2,-29.5) {$F_6$};
+\node[state3] (F73) at (2,-31) {$F_7$};
+\node[state3] (F83) at (2,-32.5) {$F_8$};
+\node[state3] (F93) at (2,-34) {$F_9$};
+\node[state3] (F103) at (2,-35.5) {$F_{10}$};
+
+
+\node[dots] (Dots) at (4,-2)[draw=none,node distance=1cm] {$\ldots$};
+\node[dots] (Dots) at (4,-12.75)[draw=none,node distance=1cm] {$\ldots$};
+\node[dots] (Dots) at (4,-28.75)[draw=none,node distance=1cm] {$\ldots$};
+
+\node[observation] (X9) at (6,-2) {$X_9$};
+\node[state3] (B19) at (6,-6) {$B_1$};
+\node[state3] (B29) at (6,-7.5) {$B_2$};
+\node[state3] (B39) at (6,-9) {$B_3$};
+\node[state3] (B49) at (6,-10.5) {$B_4$};
+\node[state3] (B59) at (6,-12) {$B_5$};
+\node[state3] (B69) at (6,-13.5) {$B_6$};
+\node[state3] (B79) at (6,-15) {$B_7$};
+\node[state3] (B89) at (6,-16.5) {$B_8$};
+\node[state2] (B99) at (6,-18) {$B_9$};
+\node[state3] (B109) at (6,-19.5) {$B_{10}$};
+
+\node[state3] (F19) at (6,-22) {$F_1$};
+\node[state3] (F29) at (6,-23.5) {$F_2$};
+\node[state3] (F39) at (6,-25) {$F_3$};
+\node[state3] (F49) at (6,-26.5) {$F_4$};
+\node[state3] (F59) at (6,-28) {$F_5$};
+\node[state3] (F69) at (6,-29.5) {$F_6$};
+\node[state3] (F79) at (6,-31) {$F_7$};
+\node[state3] (F89) at (6,-32.5) {$F_8$};
+\node[state2] (F99) at (6,-34) {$F_9$};
+\node[state3] (F109) at (6,-35.5) {$F_{10}$};
+
+\node[observation] (X10) at (8,-2) {$X_{10}$};
+\node[state3] (B110) at (8,-6) {$B_1$};
+\node[state3] (B210) at (8,-7.5) {$B_2$};
+\node[state3] (B310) at (8,-9) {$B_3$};
+\node[state3] (B410) at (8,-10.5) {$B_4$};
+\node[state3] (B510) at (8,-12) {$B_5$};
+\node[state3] (B610) at (8,-13.5) {$B_6$};
+\node[state3] (B710) at (8,-15) {$B_7$};
+\node[state3] (B810) at (8,-16.5) {$B_8$};
+\node[state3] (B910) at (8,-18) {$B_9$};
+\node[state2] (B1010) at (8,-19.5) {$B_{10}$}
+edge [<-] node[midway]{1}(B99);
+
+\node[state3] (F110) at (8,-22) {$F_1$};
+\node[state3] (F210) at (8,-23.5) {$F_2$};
+\node[state3] (F310) at (8,-25) {$F_3$};
+\node[state3] (F410) at (8,-26.5) {$F_4$};
+\node[state3] (F510) at (8,-28) {$F_5$};
+\node[state3] (F610) at (8,-29.5) {$F_6$};
+\node[state3] (F710) at (8,-31) {$F_7$};
+\node[state3] (F810) at (8,-32.5) {$F_8$};
+\node[state3] (F910) at (8,-34) {$F_9$};
+\node[state2] (F1010) at (8,-35.5) {$F_{10}$}
+edge [<-] node[midway]{1}(F99);
+
+\node[observation] (X11) at (10,-2) {$X_{11}$};
+\node[state2] (B111) at (10,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1010);
+\node[state3] (B211) at (10,-7.5) {$B_2$};
+\node[state3] (B311) at (10,-9) {$B_3$};
+\node[state3] (B411) at (10,-10.5) {$B_4$};
+\node[state3] (B511) at (10,-12) {$B_5$};
+\node[state3] (B611) at (10,-13.5) {$B_6$};
+\node[state3] (B711) at (10,-15) {$B_7$};
+\node[state3] (B811) at (10,-16.5) {$B_8$};
+\node[state3] (B911) at (10,-18) {$B_9$};
+\node[state2] (B1011) at (10,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ]{$\frac{9}{10}$}(B1010);
+
+\node[state2] (F111) at (10,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1010);
+\node[state3] (F211) at (10,-23.5) {$F_2$};
+\node[state3] (F311) at (10,-25) {$F_3$};
+\node[state3] (F411) at (10,-26.5) {$F_4$};
+\node[state3] (F511) at (10,-28) {$F_5$};
+\node[state3] (F611) at (10,-29.5) {$F_6$};
+\node[state3] (F711) at (10,-31) {$F_7$};
+\node[state3] (F811) at (10,-32.5) {$F_8$};
+\node[state3] (F911) at (10,-34) {$F_9$};
+\node[state2] (F1011) at (10,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1010);
+
+\node[observation] (X12) at (12,-2) {$X_{12}$};
+\node[state2] (B112) at (12,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1011);
+\node[state2] (B212) at (12,-7.5) {$B_2$}
+edge [<-] node[near end]{1}(B111);
+\node[state3] (B312) at (12,-9) {$B_3$};
+\node[state3] (B412) at (12,-10.5) {$B_4$};
+\node[state3] (B512) at (12,-12) {$B_5$};
+\node[state3] (B612) at (12,-13.5) {$B_6$};
+\node[state3] (B712) at (12,-15) {$B_7$};
+\node[state3] (B812) at (12,-16.5) {$B_8$};
+\node[state3] (B912) at (12,-18) {$B_9$};
+\node[state2] (B1012) at (12,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ] {$\frac{9}{10}$}(B1011);
+
+\node[state2] (F112) at (12,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1011);
+\node[state2] (F212) at (12,-23.5) {$F_2$}
+edge [<-] node[near end]{1}(F111);
+\node[state3] (F312) at (12,-25) {$F_3$};
+\node[state3] (F412) at (12,-26.5) {$F_4$};
+\node[state3] (F512) at (12,-28) {$F_5$};
+\node[state3] (F612) at (12,-29.5) {$F_6$};
+\node[state3] (F712) at (12,-31) {$F_7$};
+\node[state3] (F812) at (12,-32.5) {$F_8$};
+\node[state3] (F912) at (12,-34) {$F_9$};
+\node[state2] (F1012) at (12,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1011);
+
+\node[observation] (X13) at (14,-2) {$X_{13}$};
+\node[state2] (B113) at (14,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1012);
+\node[state2] (B213) at (14,-7.5) {$B_2$}
+edge [<-] node[near end]{1}(B112);
+\node[state2] (B313) at (14,-9) {$B_3$}
+edge [<-] node[near end]{1}(B212);
+\node[state3] (B413) at (14,-10.5) {$B_4$};
+\node[state3] (B513) at (14,-12) {$B_5$};
+\node[state3] (B613) at (14,-13.5) {$B_6$};
+\node[state3] (B713) at (14,-15) {$B_7$};
+\node[state3] (B813) at (14,-16.5) {$B_8$};
+\node[state3] (B913) at (14,-18) {$B_9$};
+\node[state2] (B1013) at (14,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ] {$\frac{9}{10}$}(B1012);
+
+\node[state2] (F113) at (14,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1012);
+\node[state2] (F213) at (14,-23.5) {$F_2$}
+edge [<-] node[near end]{1}(F112);
+\node[state2] (F313) at (14,-25) {$F_3$}
+edge [<-] node[near end]{1}(F212);
+\node[state3] (F413) at (14,-26.5) {$F_4$};
+\node[state3] (F513) at (14,-28) {$F_5$};
+\node[state3] (F613) at (14,-29.5) {$F_6$};
+\node[state3] (F713) at (14,-31) {$F_7$};
+\node[state3] (F813) at (14,-32.5) {$F_8$};
+\node[state3] (F913) at (14,-34) {$F_9$};
+\node[state2] (F1013) at (14,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1012);
+
+\node[dots] (Dots) at (16,-2)[draw=none,node distance=1cm] {$\ldots$};
+\node[dots] (Dots) at (16,-12.75)[draw=none,node distance=1cm] {$\ldots$};
+\node[dots] (Dots) at (16,-28.75)[draw=none,node distance=1cm] {$\ldots$};
+
+\node[observation] (X17) at (18,-2) {$X_{17}$};
+\node[state2] (B117) at (18,-6) {$B_1$};
+\node[state2] (B217) at (18,-7.5) {$B_2$};
+\node[state2] (B317) at (18,-9) {$B_3$};
+\node[state2] (B417) at (18,-10.5) {$B_4$};
+\node[state2] (B517) at (18,-12) {$B_5$};
+\node[state2] (B617) at (18,-13.5) {$B_6$};
+\node[state2] (B717) at (18,-15) {$B_7$};
+\node[state3] (B817) at (18,-16.5) {$B_8$};
+\node[state3] (B917) at (18,-18) {$B_9$};
+\node[state2] (B1017) at (18,-19.5) {$B_{10}$};
+
+\node[state2] (F117) at (18,-22) {$F_1$};
+\node[state2] (F217) at (18,-23.5) {$F_2$};
+\node[state2] (F317) at (18,-25) {$F_3$};
+\node[state2] (F417) at (18,-26.5) {$F_4$};
+\node[state2] (F517) at (18,-28) {$F_5$};
+\node[state2] (F617) at (18,-29.5) {$F_6$};
+\node[state2] (F717) at (18,-31) {$F_7$};
+\node[state3] (F817) at (18,-32.5) {$F_8$};
+\node[state3] (F917) at (18,-34) {$F_9$};
+\node[state2] (F1017) at (18,-35.5) {$F_{10}$};
+
+\node[observation] (X18) at (20,-2) {$X_{18}$};
+\node[state2] (B118) at (20,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1017);
+\node[state2] (B218) at (20,-7.5) {$B_2$}
+edge [<-] node[near end]{1}(B117);
+\node[state2] (B318) at (20,-9) {$B_3$}
+edge [<-] node[near end]{1}(B217);
+\node[state2] (B418) at (20,-10.5) {$B_4$}
+edge [<-] node[near end]{1}(B317);
+\node[state2] (B518) at (20,-12) {$B_5$}
+edge [<-] node[near end]{1}(B417);
+\node[state2] (B618) at (20,-13.5) {$B_6$}
+edge [<-] node[near end]{1}(B517);
+\node[state2] (B718) at (20,-15) {$B_7$}
+edge [<-] node[near end]{1}(B617);
+\node[state2] (B818) at (20,-16.5) {$B_8$}
+edge [<-] node[near end]{1}(B717);
+\node[state3] (B918) at (20,-18) {$B_9$};
+\node[state2] (B1018) at (20,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ] {$\frac{9}{10}$}(B1017);
+
+\node[state2] (F118) at (20,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1017);
+\node[state2] (F218) at (20,-23.5) {$F_2$}
+edge [<-] node[near end]{1}(F117);
+\node[state2] (F318) at (20,-25) {$F_3$}
+edge [<-] node[near end]{1}(F217);
+\node[state2] (F418) at (20,-26.5) {$F_4$}
+edge [<-] node[near end]{1}(F317);
+\node[state2] (F518) at (20,-28) {$F_5$}
+edge [<-] node[near end]{1}(F417);
+\node[state2] (F618) at (20,-29.5) {$F_6$}
+edge [<-] node[near end]{1}(F517);
+\node[state2] (F718) at (20,-31) {$F_7$}
+edge [<-] node[near end]{1}(F617);
+\node[state2] (F818) at (20,-32.5) {$F_8$}
+edge [<-] node[near end]{1}(F717);
+\node[state3] (F918) at (20,-34) {$F_9$};
+\node[state2] (F1018) at (20,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1017);
+
+\node[observation] (X19) at (22,-2) {$X_{19}$};
+\node[state2] (B119) at (22,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1018);
+\node[state2] (B219) at (22,-7.5) {$B_2$}
+edge [<-] node[near end]{1}(B118);
+\node[state2] (B319) at (22,-9) {$B_3$}
+edge [<-] node[near end]{1}(B218);
+\node[state2] (B419) at (22,-10.5) {$B_4$}
+edge [<-] node[near end]{1}(B318);
+\node[state2] (B519) at (22,-12) {$B_5$}
+edge [<-] node[near end]{1}(B418);
+\node[state2] (B619) at (22,-13.5) {$B_6$}
+edge [<-] node[near end]{1}(B518);
+\node[state2] (B719) at (22,-15) {$B_7$}
+edge [<-] node[near end]{1}(B618);
+\node[state2] (B819) at (22,-16.5) {$B_8$}
+edge [<-] node[near end]{1}(B718);
+\node[state2] (B919) at (22,-18) {$B_9$}
+edge [<-] node[near end]{1}(B818);
+\node[state2] (B1019) at (22,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ] {$\frac{9}{10}$}(B1018);
+
+\node[state2] (F119) at (22,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1018);
+\node[state2] (F219) at (22,-23.5) {$F_2$}
+edge [<-] node[near end]{1}(F118);
+\node[state2] (F319) at (22,-25) {$F_3$}
+edge [<-] node[near end]{1}(F218);
+\node[state2] (F419) at (22,-26.5) {$F_4$}
+edge [<-] node[near end]{1}(F318);
+\node[state2] (F519) at (22,-28) {$F_5$}
+edge [<-] node[near end]{1}(F418);
+\node[state2] (F619) at (22,-29.5) {$F_6$}
+edge [<-] node[near end]{1}(F518);
+\node[state2] (F719) at (22,-31) {$F_7$}
+edge [<-] node[near end]{1}(F618);
+\node[state2] (F819) at (22,-32.5) {$F_8$}
+edge [<-] node[near end]{1}(F718);
+\node[state2] (F919) at (22,-34) {$F_9$}
+edge [<-] node[near end]{1}(F818);
+\node[state2] (F1019) at (22,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1018);
+
+\node[observation] (X20) at (24,-2) {$X_{20}$};
+\node[state2] (B120) at (24,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1019);
+\node[state2] (B220) at (24,-7.5) {$B_2$}
+edge [<-] node[near end]{1}(B119);
+\node[state2] (B320) at (24,-9) {$B_3$}
+edge [<-] node[near end]{1}(B219);
+\node[state2] (B420) at (24,-10.5) {$B_4$}
+edge [<-] node[near end]{1}(B319);
+\node[state2] (B520) at (24,-12) {$B_5$}
+edge [<-] node[near end]{1}(B419);
+\node[state2] (B620) at (24,-13.5) {$B_6$}
+edge [<-] node[near end]{1}(B519);
+\node[state2] (B720) at (24,-15) {$B_7$}
+edge [<-] node[near end]{1}(B619);
+\node[state2] (B820) at (24,-16.5) {$B_8$}
+edge [<-] node[near end]{1}(B719);
+\node[state2] (B920) at (24,-18) {$B_9$}
+edge [<-] node[near end]{1}(B819);
+\node[state2] (B1020) at (24,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ] {$\frac{9}{10}$}(B1019)
+edge [<-] node[near start]{1}(B919);
+
+\node[state2] (F120) at (24,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1019);
+\node[state2] (F220) at (24,-23.5) {$F_2$}
+edge [<-] node[near end]{1}(F119);
+\node[state2] (F320) at (24,-25) {$F_3$}
+edge [<-] node[near end]{1}(F219);
+\node[state2] (F420) at (24,-26.5) {$F_4$}
+edge [<-] node[near end]{1}(F319);
+\node[state2] (F520) at (24,-28) {$F_5$}
+edge [<-] node[near end]{1}(F419);
+\node[state2] (F620) at (24,-29.5) {$F_6$}
+edge [<-] node[near end]{1}(F519);
+\node[state2] (F720) at (24,-31) {$F_7$}
+edge [<-] node[near end]{1}(F619);
+\node[state2] (F820) at (24,-32.5) {$F_8$}
+edge [<-] node[near end]{1}(F719);
+\node[state2] (F920) at (24,-34) {$F_9$}
+edge [<-] node[near end]{1}(F819);
+\node[state2] (F1020) at (24,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1019)
+edge [<-] node[near end]{1}(F919);
+
+\node[observation] (X21) at (26,-2) {$X_{21}$};
+\node[state2] (B121) at (26,-6) {$B_1$}
+edge [<-, out=180, in=0, looseness=0.1] node[very near end, below]{$\frac{1}{10}$}(F1020);
+\node[state2] (B221) at (26,-7.5) {$B_2$}
+edge [<-] node[near end]{1}(B120);
+\node[state2] (B321) at (26,-9) {$B_3$}
+edge [<-] node[near end]{1}(B220);
+\node[state2] (B421) at (26,-10.5) {$B_4$}
+edge [<-] node[near end]{1}(B320);
+\node[state2] (B521) at (26,-12) {$B_5$}
+edge [<-] node[near end]{1}(B420);
+\node[state2] (B621) at (26,-13.5) {$B_6$}
+edge [<-] node[near end]{1}(B520);
+\node[state2] (B721) at (26,-15) {$B_7$}
+edge [<-] node[near end]{1}(B620);
+\node[state2] (B821) at (26,-16.5) {$B_8$}
+edge [<-] node[near end]{1}(B720);
+\node[state2] (B921) at (26,-18) {$B_9$}
+edge [<-] node[near end]{1}(B820);
+\node[state2] (B1021) at (26,-19.5) {$B_{10}$}
+edge [<-, out=90, in=90] node[midway ] {$\frac{9}{10}$}(B1020)
+edge [<-] node[near start]{1}(B920);
+
+\node[state2] (F121) at (26,-22) {$F_1$}
+edge [<-, out=130, in=290] node[near end]{$\frac{1}{10}$}(B1020);
+\node[state2] (F221) at (26,-23.5) {$F_2$}
+edge [<-] node[near end]{1}(F120);
+\node[state2] (F321) at (26,-25) {$F_3$}
+edge [<-] node[near end]{1}(F220);
+\node[state2] (F421) at (26,-26.5) {$F_4$}
+edge [<-] node[near end]{1}(F320);
+\node[state2] (F521) at (26,-28) {$F_5$}
+edge [<-] node[near end]{1}(F420);
+\node[state2] (F621) at (26,-29.5) {$F_6$}
+edge [<-] node[near end]{1}(F520);
+\node[state2] (F721) at (26,-31) {$F_7$}
+edge [<-] node[near end]{1}(F620);
+\node[state2] (F821) at (26,-32.5) {$F_8$}
+edge [<-] node[near end]{1}(F720);
+\node[state2] (F921) at (26,-34) {$F_9$}
+edge [<-] node[near end]{1}(F820);
+\node[state2] (F1021) at (26,-35.5) {$F_{10}$}
+edge [<-, out=270, in=270] node[midway, below]{$\frac{9}{10}$}(F1020)
+edge [<-] node[near end]{1}(F920);
+
+\node[dots] (Dots) at (28,-2)[draw=none,node distance=1cm] {$\ldots$};
+\node[dots] (Dots) at (28,-12.75)[draw=none,node distance=1cm] {$\ldots$};
+\node[dots] (Dots) at (28,-28.75)[draw=none,node distance=1cm] {$\ldots$};
+
+\node[state2] (Start2) at (-6,-20.75) {$Start$}
+edge [->, in = 180] node[midway, left]{$\frac{1}{2}$}(B11)
+edge [->] node[midway, below]{$\frac{1}{2}$}(F11);
+
+\end{tikzpicture}
+}
+\caption{Directed Acyclic Graph for the possible sequence of states that emit the observation $x_1x_2x_3\hdots x_n$ of the Fair Bet Casino}
+
+\end{figure}
+
+\end{center}
+\newpage
+
+\section{11.4} 
 \end{document}
