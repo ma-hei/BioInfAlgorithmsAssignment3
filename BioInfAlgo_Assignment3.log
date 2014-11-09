@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.8.25)  5 NOV 2014 13:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.8.25)  9 NOV 2014 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,18 +146,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
-\thm@preskip=\skip46
-\thm@postskip=\skip47
-\thm@headsep=\skip48
-\dth@everypar=\toks26
-)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -170,7 +158,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks27
+\KV@toks@=\toks21
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -201,12 +189,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count101
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks28
+\pgfutil@everybye=\toks22
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box28
@@ -222,12 +213,12 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks25
 ))
 \pgf@x=\dimen115
 \pgf@y=\dimen116
@@ -292,9 +283,9 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@dimen=\dimen123
 \pgfmath@count=\count108
 \pgfmath@box=\box29
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -434,8 +425,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen149
 \pgffor@skip=\dimen150
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -472,7 +463,15 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (./BioInfAlgo_Assignment3.aux)
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(./BioInfAlgo_Assignment3.aux)
 \openout1 = `BioInfAlgo_Assignment3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -499,12 +498,12 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \scratchbox=\box37
 \nofMPsegments=\count122
 \nofMParguments=\count123
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks31
 \MPscratchCnt=\count124
 \MPscratchDim=\dimen159
 \MPnumerator=\count125
 \makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -554,1639 +553,1703 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 194.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 30.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 194.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 30.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 194
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 30.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 194
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 30.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 194.
+(Font)              <10> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 194.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 194.
-LaTeX Font Info:    Try loading font information for U+msa on input line 194.
+(Font)              <5> on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 194.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (3.12491pt too wide) in paragraph at lines 194--194
+Overfull \hbox (3.12491pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 H$ 
  []
 
 
-Overfull \hbox (1.23259pt too wide) in paragraph at lines 194--194
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 200--200
  [][][][]$\OML/lmm/m/it/10 T$ 
  []
 
 
-Overfull \hbox (6.77066pt too wide) in paragraph at lines 631--631
+Overfull \hbox (6.77066pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (6.77066pt too wide) in paragraph at lines 631--631
+Overfull \hbox (6.77066pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (6.77066pt too wide) in paragraph at lines 631--631
+Overfull \hbox (6.77066pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (6.77066pt too wide) in paragraph at lines 631--631
+Overfull \hbox (6.77066pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (12.432pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (11.27748pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (10.75665pt too wide) in paragraph at lines 631--631
+Overfull \hbox (10.75665pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 X[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (6.07101pt too wide) in paragraph at lines 631--631
+Overfull \hbox (16.418pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (10.057pt too wide) in paragraph at lines 631--631
+Overfull \hbox (20.40399pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 B[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (4.91649pt too wide) in paragraph at lines 631--631
+Overfull \hbox (15.26347pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (8.90248pt too wide) in paragraph at lines 631--631
+Overfull \hbox (19.24947pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 F[]$ 
  []
 
 
-Overfull \hbox (18.00574pt too wide) in paragraph at lines 631--631
+Overfull \hbox (18.00574pt too wide) in paragraph at lines 637--637
  [][][][]$\OML/lmm/m/it/10 Start$ 
  []
+
+
+LaTeX Warning: Float too large for page by 42.9704pt on input line 640.
 
 [1
 
 {/Users/martenheidemeyer/Library/texlive/2013/texmf-var/fonts/map/pdftex/updmap
-/pdftex.map}] [2] [3] (./BioInfAlgo_Assignment3.aux) ) 
+/pdftex.map}] [2]
+Overfull \hbox (1.86243pt too wide) in paragraph at lines 749--749
+ [][][][]$\OML/lmm/m/it/10 G$ 
+ []
+
+
+Overfull \hbox (1.86243pt too wide) in paragraph at lines 749--749
+ [][][][]$\OML/lmm/m/it/10 G$ 
+ []
+
+
+Overfull \hbox (1.86243pt too wide) in paragraph at lines 749--749
+ [][][][]$\OML/lmm/m/it/10 C$ 
+ []
+
+
+Overfull \hbox (1.23259pt too wide) in paragraph at lines 749--749
+ [][][][]$\OML/lmm/m/it/10 T$ 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 761.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 761.
+
+Overfull \hbox (7.67433pt too wide) in paragraph at lines 774--775
+[]$\OT1/lmr/m/it/10 E \OT1/lmr/m/n/10 = \OMS/lmsy/m/n/10 f\OML/lmm/m/it/10 e[]\
+OT1/lmr/m/n/10 (1) = []\OML/lmm/m/it/10 ; e[]\OT1/lmr/m/n/10 (2) = []\OML/lmm/m
+/it/10 ; e[]\OT1/lmr/m/n/10 (3) = []\OML/lmm/m/it/10 ; e[]\OT1/lmr/m/n/10 (1) =
+ []\OML/lmm/m/it/10 ; e[]\OT1/lmr/m/n/10 (2) = []\OML/lmm/m/it/10 ; e[]\OT1/lmr
+/m/n/10 (3) =
+ []
+
+
+Overfull \hbox (125.55832pt too wide) in paragraph at lines 780--794
+ |  [] 
+ []
+
+[3] [4]
+Overfull \hbox (13.16547pt too wide) in paragraph at lines 911--911
+ [][][][]$\OML/lmm/m/it/10 End$ 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
+
+ []
+
+[6]
+Overfull \hbox (24.75267pt too wide) in paragraph at lines 944--944
+[] 
+ []
+
+[7] (./BioInfAlgo_Assignment3.aux) ) 
 Here is how much of TeX's memory you used:
- 13377 strings out of 493315
- 237036 string characters out of 6137904
- 699238 words of memory out of 5000000
- 16561 multiletter control sequences out of 15000+600000
- 25645 words of font info for 34 fonts, out of 8000000 for 9000
+ 13818 strings out of 493315
+ 243906 string characters out of 6137904
+ 707094 words of memory out of 5000000
+ 16989 multiletter control sequences out of 15000+600000
+ 45129 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,12n,55p,428b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/
-texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2013/texmf-dist
-/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvi
-ps/lm/lm-rm.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx1
-2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/lm/lmr7.pfb>
-Output written on BioInfAlgo_Assignment3.pdf (3 pages, 121636 bytes).
+ 56i,21n,55p,1292b,929s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/e
+nc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/l
+m/lm-rm.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.en
+c}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/lm/lmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/lm/lmmi5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi7
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/lm/lmsy7.pfb>
+Output written on BioInfAlgo_Assignment3.pdf (7 pages, 204640 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

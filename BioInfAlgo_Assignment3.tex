@@ -30,7 +30,7 @@
 The corresponding HMM model for this Problem is illustrated in Figure1. The states where the dealer is tossing the biased coin are represented by $B_1,\hdots,B_{10}$, the fair coin is represented by the states $F_1,\hdots, F_{10}$. From the start state we go into state $B_1$ or $F_1$ with equal probability. After step $i$, with $i\leq10$ we end in state $B_i$ if we went into $B_1$ after the start and we end in state $F_i$ if we went into $F_1$ after the start. After the 10th toss we change from $B_{10}$ to $F_1$ (if we went into $B_1$ from the start) or from $F_{10}$ to $B_1$ (if we went into $F_1$ from the start) both with probability $\frac{1}{10}$ or we stay in the same state $B_{10}$ or $F_{10}$ with probability $\frac{9}{10}$.
 If we change into $B_1$ ($F_1$) we again traverse $B_2, B_3, \hdots, B_{10}$ ($F_2, F_3, \hdots, F_{10}$) before we can change into $B_1$ ($F_1$) again. By always traversing $B_1, B_2, B_3, \hdots, B_{10}$ ($F_1,F_2, F_3, \hdots, F_{10}$) before we can go into $F_1$ ($B_1$) and because we stay in $B_{10}$ ($F_{10}$) with probability $\frac{9}{10}$ the case is represented that the dealer keeps each coin for at least 10 tosses.
 
-For the decoding algorithm we now have to deal with 20 states per step (see Figure 2). Let $B_{i,k}$ and $F_{i,k}$ be the probability for the most probable sequence of states for emitting $x_1,\hdots, x_k$ and ending at state $B_i$ or $F_i$. For any given state $i$ with $i\leq9$ and step $k$ we can compute $B_{i,k}$ as $B_{i-1,k-1}*e_{B_i}(x_k)$ and likewise for $F_{i,k}$, because we can only come from one previous state. When $k\geq20$ we can come from two previous states to get to $B_{10,k}$ and $F_{10,k}$ and thus have to calculate two values and chose a maximum: to get  $B_{10,k}$ we have to get the maximum of  $F_{1,k-1}*\frac{1}{10}*e_{B_{10}}(x_k)$ and $B_{10,k-1}*\frac{9}{10}*e_{B_{10}}(x_k)$. When $k<20$ we can also just come from one previous state to get to $B_{10,k}$ and $F_{10,k}$. 
+For the decoding algorithm we now have to deal with 20 states per step (see Figure 2). Let $B_{i,k}$ and $F_{i,k}$ be the probability for the most probable sequence of states for emitting $x_1,\hdots, x_k$ and ending at state $B_i$ or $F_i$. For any given state $i$ with $i\leq9$ and step $k$ we can compute $B_{i,k}$ as $B_{i-1,k-1}*e_{B_i}(x_k)$ and likewise for $F_{i,k}$, because we can only come from one previous state. When $k\geq20$ we can come from two previous states to get to $B_{10,k}$ and $F_{10,k}$ and thus have to calculate two values and chose a maximum: to get  $B_{10,k}$ we have to get the maximum of  $F_{1,k-1}*\frac{1}{10}*e_{B_{10}}(x_k)$ and $B_{10,k-1}*\frac{9}{10}*e_{B_{10}}(x_k)$. When $k<20$ we can also only come from one previous state to get to $B_{10,k}$ and $F_{10,k}$. 
 
 \hspace*{-2cm}
 \begin{center}
@@ -848,7 +848,7 @@ edge [<-, out=100, in=280] node[midway, below] {$\frac{1}{2}$}(D2);
 
 \begin{figure}[!htp]
 
-
+\vspace{-3cm}
 \noindent\makebox[\textwidth]{%
 \begin{tikzpicture}[scale=0.6]
 \node[state] (Start) at (-8,0) {$Start$};
@@ -911,7 +911,38 @@ edge [<-, out=230, in=10] node[midway, left] {$-2$}(D26);
 }
 \caption{Running the decoding algorithm for the sequence of states 1121221end. $D_{xy}$ is the probability of the most likely path of $x_1,\hdots,x_y$ that ends at state $D_x$. The values between $D_{xi}$ and $D_{yi+1}$ describe the log-probability of changing from state $D_x$ to $D_y$ from time step $i$ to $i+1$. The red arrows indicate the backtracking paths.}
 
+
+
 \end{figure}
 
 \end{center}
+
+\section{Problem 5}
+We are given the HMM $\mathcal{M}$, an observation sequence $X=x_1,x_2,x_3\hdots,x_n$ and that observation $x_i$ was emitted by state $q$. Let $s_{m,l}$ be the probability of the most likely path that emitted $x_1,x_2,\hdots,x_l$ and reached state $m$. We want to get the most likely state transition sequence $s_1,s_2,\hdots,s_n$ that $\mathcal{M}$ goes through to generate $X$ where $s_i=q$. We get this sequence by first running the viterbi algorithm until step $i$. Next we set the previously calculated probabilites for $s_{m,i}$ with $m\neq q$ to zero before calculating the next set of probabilites $s_{m,i+1}$. Then we continue with the viterbi algorithm to calculate the set of probabilities $s_{m,i+1}$. For $s_{m,i+1}$ we get the probability of the most likely path that emitted $x_1,x_2,\hdots,x_i,x_{i+1}$ where $x_i$ was emitted by state $k$ and we reached state $m$. Finally for $s_{m,n}$ we get the probability of the most likely path that emitted $(x_1,x_2,\hdots,x_i,\hdots,x_n)$ where $x_i$ was emitted by state $q$ and we reached state $n$. Now we do the usual backtracking to get the most likely state transition sequence. As a result we get the most likely state transition sequence $R$ where $\mathcal{M}$ was in state $q$ at step $i$.
+
+\section{Problem 6}
+We are given the HMM $\mathcal{M}$. To compute the probability that $x_i$ is aligned with $y_j$, let:
+\begin{itemize}
+\item $v^M(a,b)$ be the probability of aligning $x_1,\hdots, x_a$ with $y_1,\hdots, y_b$ where $x_a$ was aligned to $y_b$ in the last step.
+\item $v^y(a,b)$ be the probability of aligning $x_1,\hdots, x_a$ with $y_1,\hdots, y_b$ where $y_b$ was aligned to a gap in the last step.
+\item $v^x(a,b)$ be the probability of aligning $x_1,\hdots, x_a$ with $y_1,\hdots, y_b$ where $x_a$ was aligned to a gap in the last step.
+\end{itemize}
+To compute the probability of aligning $x_i$ with $y_j$ I initialize the tables $v^M$, $v^x$ and $v^y$ as following:
+\begin{itemize}
+\item$v^M(0,0)=1$ and all other $v^M(a,0)=v^M(0,b)=0$
+\item all $v^y(0,b)=0$
+\item all $v^x(a,0)=0$
+\end{itemize}
+and I define the following recurrence (where $s$=$(1-2\delta-\tau)$ is the transition probability of going from state $M$ to state $M$, $d=(1-\epsilon-\tau)$ is the transition probability of going from state $X$ to state $M$ and for going from state $Y$ to state $M$, $\epsilon$ is the transition probability of going from $X$ to $X$ or from $Y$ to $Y$ and $\delta$ is the transition probability of going from $M$ to $X$ or to $Y$:\\
+
+\begin{align*}
+\text{for }&i=0,\hdots,n\\
+\text{for }&j=0,\hdots,m\\
+     &v^M(i,j)=q_{x_i,y_j}*(v^M(i-1,j-1)*s+v^y(i-1,j-1)*d+v^x(i-1,j-1)*d)\\
+     &v^y(i,j)=q_{y_j}*(v^M(i-1,j)*\delta+v^y(i-1,j)*\epsilon)\\
+    &v^x(i,j)=q_{x_i}*(v^M(i,j-1)*\delta+v^y(i,j-1)*\epsilon)\\	
+ \end{align*}
+ 
+ After runing the algorithm the cell $v^M(i,j)$ contains the probability that $x_i$ is aligned with $y_j$ which is what we are looking for.
+
 \end{document}
